@@ -7,5 +7,14 @@ public class Pantalon extends RopaPadre{
         this.boton = boton;
     }
 
+    public Boton getBoton() {
+        return boton;
+    }
+
+    public void setBoton(Boton boton) {
+        this.boton = boton;
+    }
+
+    
 
 }

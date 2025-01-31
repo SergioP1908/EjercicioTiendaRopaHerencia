@@ -8,4 +8,14 @@ public class Camisa extends RopaPadre{
         this.botones = botones;
     }
 
+    public Boton[] getBotones() {
+        return botones;
+    }
+
+    public void setBotones(Boton[] botones) {
+        this.botones = botones;
+    }
+
+    
+
 }

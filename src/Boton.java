@@ -10,4 +10,22 @@ public class Boton extends RopaPadre {
         this.tamanio = tamanio;
         this.forma = forma;
     }
+
+    public String getTamanio() {
+        return tamanio;
+    }
+
+    public void setTamanio(String tamanio) {
+        this.tamanio = tamanio;
+    }
+
+    public String getForma() {
+        return forma;
+    }
+
+    public void setForma(String forma) {
+        this.forma = forma;
+    }
+
+    
 }
